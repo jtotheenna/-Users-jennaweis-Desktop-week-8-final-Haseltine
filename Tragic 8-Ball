@@ -1,0 +1,31 @@
+import random
+import time
+
+# List of ominous 8-Ball responses
+responses = [
+    "The void stares back...",
+    "Your fate is sealed.",
+    "A shadow follows you.",
+    "Whispers say 'no'.",
+    "Not even time can help you.",
+    "The answer was lost long ago.",
+    "You should not have asked.",
+    "Doom is near.",
+    "The stars have gone dark.",
+    "You won’t like the truth.",
+    "A price must be paid first.",
+    "It’s already too late.",
+    "Nothing can change what’s coming.",
+    "Only silence remains.",
+    "I see… nothing."
+]
+
+def tragic_8ball():
+    input("Ask the Tragic 8-Ball a question... if you dare: ")
+    print("\nThe Tragic 8-Ball is pondering your fate...\n")
+    time.sleep(3)  # Adds suspense
+    print(random.choice(responses))
+
+# Run the Tragic 8-Ball
+if __name__ == "__main__":
+    tragic_8ball()
